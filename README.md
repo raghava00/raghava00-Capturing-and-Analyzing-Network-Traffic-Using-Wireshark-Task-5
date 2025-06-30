@@ -5,13 +5,15 @@
 Capturing live network packets using Wireshark and identifying common protocols like HTTP, DNS, and TCP.
 
 ✅ Prerequisites:
+
 A computer with Wireshark installed.
 
 Administrative/root permissions to capture packets.
 
 An active internet connection (to generate real traffic).
 
-🚀 Steps to Capture Packets
+🚀 Steps to Capture Packets:
+
 Launch Wireshark
 Open Wireshark with administrator/root privileges.
 
@@ -34,32 +36,24 @@ Any other network activity will generate TCP traffic.
 Stop the Capture
 After you’ve generated enough traffic, click the red square Stop button in Wireshark.
 
-🔍 Identifying Protocols
+🔍 Identifying Protocols:
+
 HTTP Traffic
-
 Filter: http
-
 Shows web traffic over port 80.
-
 Look for GET/POST requests in the packet details.
 
 DNS Traffic
-
 Filter: dns
-
 Shows DNS queries (UDP/53) and responses.
-
 Check for Standard query and Standard query response.
 
 TCP Traffic
-
 Filter: tcp
-
 Shows all TCP segments (including HTTP, HTTPS, SSH, etc.).
-
 Look for SYN, ACK, FIN flags to understand TCP handshakes and closures.
 
-🛠️ Useful Wireshark Filters
+🛠️ Useful Wireshark Filters:
 Protocol	Display Filter	Description
 HTTP	http	Only HTTP requests/responses
 DNS	dns	Only DNS queries/responses

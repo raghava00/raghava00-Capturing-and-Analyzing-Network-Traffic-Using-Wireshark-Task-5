@@ -4,7 +4,7 @@
 
 Capturing live network packets using Wireshark and identifying common protocols like HTTP, DNS, and TCP.
 
-✅ Prerequisites
+✅ Prerequisites:
 A computer with Wireshark installed.
 
 Administrative/root permissions to capture packets.

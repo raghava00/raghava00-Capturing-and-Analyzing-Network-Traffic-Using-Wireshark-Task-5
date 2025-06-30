@@ -1,8 +1,8 @@
 # raghava00-Capturing-and-Analyzing-Network-Traffic-Using-Wireshark-Task-5
 
-📡 Live Network Packet Capture with Wireshark
+📡 Live Network Packet Capture with Wireshark:
 
-capturing live network packets using Wireshark and identifying common protocols like HTTP, DNS, and TCP.
+Capturing live network packets using Wireshark and identifying common protocols like HTTP, DNS, and TCP.
 
 ✅ Prerequisites
 A computer with Wireshark installed.
